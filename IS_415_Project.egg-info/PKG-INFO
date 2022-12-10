@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: IS-415-Project
+Version: 0.0.1
+Summary: A package for the IS 415 Project
+Home-page: https://github.com/tatertot365/415-Project-Package
+Author: Tate Gillespie
+Author-email: tate.gillespie@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This package contains functions for the IS 415 Data Analytics/Machine Learning class at BYU
+The functions included are
+    calculateUnivariantStatsViz 
+    calculateBivariantStatsViz
+    assumptions
+    calculateMLRandMetrics
+
+The calculateUnivariantStatsViz function only has one parameter of a pandas dataframe
+
+The rest of the functions require a pandas dataframe and a lable (y-variable)
