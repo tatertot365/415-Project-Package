@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
   
 setuptools.setup(
     name="IS_415_Project",
-    version="0.0.1",
+    version="0.0.2",
     author="Tate Gillespie",
     author_email="tate.gillespie@gmail.com",
     packages=["IS_415_Project"],
