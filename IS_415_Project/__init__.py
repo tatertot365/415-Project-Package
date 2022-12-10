@@ -145,9 +145,9 @@ def calculateBivariantStatsViz(df, label):
     r, p = stats.pearsonr(df[feature], df[label])
     model = np.polyfit(df[feature], df[label], 1)
 
-    text = 'r - value: ' + str(round(r, 3)) + '\np - value: ' + str(round(p, 3)) 
+    text = 'r - value: ' + str(round(r, 2)) + '\np - value: ' + str(round(p, 2)) 
     text += '\nr2 value: '  + str(round(r * r, 3))
-    text += '\ny = ' + str(round(model[0], 3)) + 'x + ' + str(round(model[1], 3))
+    text += '\ny = ' + str(round(model[0], 2)) + 'x + ' + str(round(model[1], 2))
 
     sns.set(color_codes = True)
     ax = sns.jointplot(x=df[feature], y=df[label], kind='reg')
